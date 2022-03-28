@@ -1,9 +1,15 @@
 body {
     background-image: url(./pics/quoc.jpg);
-    background-size: cover
+    background-size: cover;
     
   }
   
+  .navbar {
+      background-image: url(./pics/clouds.jpg);
+      background-size: cover;
+      color: white;
+
+  }
   
   .navbar-brand {
     font-size: 36px;
