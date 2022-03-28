@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="card">
+    <div class="search">
+        <input type="text" class="search-bar" placeholder="Search">
+        <button>Search</button>
+    </div>
+
+    <div class="weather">
+        <h2 class="city">Weather in Perth</h2>
+        <h1 class="temp">28°C</h1>
+        <div class="flex">
+        <img src="https://openweathermap.org/img/wn/10d.png" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+        </div>
+        <div class="humidity">Humidity: 20%</div>
+        <div class="wind">Wind Speed: 12km/h</div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
